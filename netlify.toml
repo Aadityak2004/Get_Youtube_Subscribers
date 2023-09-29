@@ -1,0 +1,5 @@
+[build]
+functions = "index.js"  
+
+[build.environment]
+NODE_VERSION = "14"  
