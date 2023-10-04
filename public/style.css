@@ -1,0 +1,120 @@
+  body {
+    background-color: #a1a1a1;
+
+  }
+
+  div {
+    margin: 2%;
+  }
+
+  .Navbar {
+    display: flex;
+    margin-top: 0px;
+    background-color: #e9e9e9;
+    ;
+    filter: drop-shadow(5px 5px 5px black);
+  }
+
+  .navbar-brand {
+    padding: 5px;
+    margin-left: 12px;
+    height: 80px;
+    filter: drop-shadow(5px 5px 5px black);
+  }
+
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .logo_btn {
+    margin-top: 15px;
+    filter: drop-shadow(5px 5px 4px black);
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .first {
+    background-color: rgb(0, 0, 0);
+    margin-top: 82px;
+    height: 3px;
+
+  }
+
+  h3 {
+    margin-top: 40px;
+    color: black;
+    font-family: 'Black Ops One', cursive;
+  }
+
+  .GET_3 {
+    margin-top: 30px;
+  }
+
+  .GET_3 ul {
+    list-style: circle;
+    color: black;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+  }
+
+  em {
+    background-color: #ffffff;
+    padding: 6.5px;
+    border-radius: 30px;
+    cursor: inherit;
+  }
+
+  em:hover {
+    background-color: #c0e3ff;
+    filter: drop-shadow(2px 2px 2px black);
+  }
+
+
+  .last {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    margin-top: 50px;
+  }
+
+  .Footer {
+    margin-top: -45px;
+  }
+
+  .Yt_1 {
+    border-radius: 15px;
+    box-shadow: 6px 6px #5bdbdb;
+  }
+
+  .Yt_foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Yt_message {
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(250, 133, 0);
+    color: black;
+    border-radius: 50px
+  }
+
+  /* Media Query */
+
+  @media screen and (max-width:688px) {
+    .Navbar {
+      display: block;
+    }
+
+    .logo_btn {
+      margin-top: 0px;
+    }
+  }
