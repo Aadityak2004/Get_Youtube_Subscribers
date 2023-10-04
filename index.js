@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 
 // Connecting to DATABASE using ENV
-// const DATABASE_URL = process.env.MONGOURI;
+const DATABASE_URL = process.env.MONGOURI;
 mongoose.connect("mongodb+srv://adityakathoke15:AadityaK2004@cluster0.rt2aq1g.mongodb.net/?retryWrites=true&w=majorityL", { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection
 db.on('error', (err) => console.log(err))
